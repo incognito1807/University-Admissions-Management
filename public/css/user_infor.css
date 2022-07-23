@@ -1,0 +1,164 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;
+	vertical-align:baseline;
+    /* background: url('../img/user/back_user.jpg'); */
+}
+
+.main-infor {
+    box-shadow: 0px 2px 5px #888888;
+}
+
+
+/* Header */
+.main-infor h2 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 40px 0;
+    color: #000;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    font-family: 'Helvetica', cursive;
+}
+form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.infor_body {
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+
+.main-infor {
+    /* min-height: 400px; */
+    width: fit-content;
+    margin: auto;
+}
+
+.infor {
+    margin-left: 70px;
+    margin-right: 70px;
+    justify-content: space-between;
+    line-height: 27px;
+    font-size: 23px !important;
+}
+
+.infor td {
+    min-width: 150px;
+}
+
+.table_infor input {
+    min-width: 900px;
+    font-size: 23px;
+    height: 45px;
+    padding-left: 10px;
+}
+
+.head-another-contact {
+    color: #000;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.others-details {
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.others-details td:first-child {
+    width: 200px;
+    height: 28px;
+}
+
+.submit_edit_infor {
+    margin-top: 10px;
+    text-align: center;
+}
+
+    .submit_edit_infor button:first-child{
+        margin-right: 20px;
+    }
+
+@media screen and (min-width: 1100px) {
+    .main-agileits {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .personal-infor {
+        display: flex;
+        width: 100%;
+    }
+
+    .personal-img {
+        height: 260px;
+        width: 260px;
+        border-radius: 50%;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    .table_infor tr {
+        line-height: 50px;
+    }
+
+    .others-details .table_infor tr {
+        line-height: 70px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .main-agileits {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .personal-infor .infor, .personal-img{
+        display: block;
+    }
+    .personal-img {
+        width: 50%;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .others-details .fix_infor {
+        width: 100%;
+    }
+
+    .table_infor .fix_infor {
+        min-width: max-content;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-agileits {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .personal-infor .infor, .personal-img{
+        display: block;
+    }
+    .personal-img {
+        width: 50%;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .others-details .fix_infor {
+        width: 100%;
+    }
+}

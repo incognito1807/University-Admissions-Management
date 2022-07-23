@@ -1,0 +1,1 @@
+<img src="<?php echo BASE_PATH?>/public/img/main/dashboard.jpg" alt="dashboard-view" class="dashboard-img"/>

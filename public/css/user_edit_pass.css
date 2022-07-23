@@ -1,0 +1,63 @@
+/*edit pass*/
+body {
+    margin: 0px auto;
+}
+
+.main_edit_pass {
+    margin-top: 2em;
+    margin: auto;
+}
+
+.header_edit_pass {
+    padding: 1em;
+    width: max-content;
+    margin: auto;
+    font-size: 2em;
+}
+
+.main_edit_pass table {
+    margin: auto;
+    font-size: 23px;
+}
+
+.main_edit_pass label {
+    min-width: 300px !important;
+    padding-right: 20px;
+}
+
+.main_edit_pass .input-pass {
+    height: 30px;
+    min-width: 250px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.main_edit_pass .span-edit {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main_edit_pass table tr td{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .main_edit_pass { 
+        width: 60%;
+        line-height: 1.8;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .main_edit_pass { 
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main_edit_pass { 
+        width: 100%;
+    }
+}

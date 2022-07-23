@@ -1,0 +1,132 @@
+img {
+    max-width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.dashboard-img {
+    display: block;
+}
+
+/*--- end reset code ---*/
+body {
+	font-family: 'Helvetica', cursive;
+    margin: 0;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.move-btn {
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    height: 30px;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    min-width: 80px;
+}
+
+.btn-big {
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    min-width: 120px;
+}
+
+.btn-big a{
+    display: block;
+    padding: 15px 40px !important;
+}
+
+a{
+   text-decoration: none;
+}
+
+a.min-w-150 {
+    display: block;
+    min-width: 150px !important;
+}
+
+a.min-w-80 {
+    display: block;
+    min-width: 80px !important;
+}
+
+.move-btn:hover{
+    cursor: pointer;
+}
+
+    .move-btn a:link {
+        color: #fff;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    .move-btn a:visited {
+        color: #fff;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    .move-btn a:hover {
+        color: #fff;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    .move-btn a:active {
+        color: #fff;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+.b-green {
+    background-color: #3bd09c;
+}
+
+.b-green:hover {
+    background-color: #35b488;
+}
+
+.active {
+    background-color: #35b488 !important;
+}
+
+.b-yellow {
+    background: #f0b028;
+}
+
+.b-yellow:hover {
+    background: #ffaf00;
+}
+
+.b-red {
+    background: #ec6262;
+}
+
+.b-red:hover {
+    background: #ff2e2d;
+}
+
+.move-btn a{
+    padding: 7px 2px;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.no-data-notice {
+    width: 250px;
+    font-size: 30px;
+    font-weight: 600;
+    margin: auto;
+}

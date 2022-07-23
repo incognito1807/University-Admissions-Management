@@ -1,0 +1,131 @@
+#notice{
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    z-index: 99;
+}
+
+.notice{
+    display: block;
+    height: 32px;
+    width: 350px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    padding: 8px 0px;
+    transition: all linear 0.5s;
+    margin: auto;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(calc(100% + 32px));
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
+
+    .notice-icon{
+        font-size: 24px;
+        float: left;
+        margin-top: 3.5px;
+    }
+
+    .notice-icon, .notice-close{
+        padding: 0px 16px;
+        font-weight: lighter;
+    }
+
+    .notice-body{
+        display: inline-block;
+    }
+
+        .notice-msg{
+            font-size: 15px;
+            font-weight: 600;
+            color: #000;
+            margin-top: 8px;
+        }
+
+    .notice-close{
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.5);
+        float: right;
+        margin-top: 3.5px;
+        cursor: pointer;
+    }
+
+    .notice-close:hover{
+        color: rgba(0, 0, 0, 0.3);
+    }
+
+/* set khoảng cách các notice nếu có nhiều notice  */
+.notice + .notice {
+    margin-top: 24px;
+}
+
+
+    /* css màu cho notice success */
+    .notice-success .notice-icon{
+        color: #019160;
+    }
+
+    .notice-success .notice-close{
+        color: #019160;
+    }
+
+    .notice-success .notice-close:hover{
+        color: #2fbe8e;
+    }
+
+
+    /* css màu cho notice info */
+    .notice-info .notice-icon{
+        color: #4388d9;
+    }
+
+    .notice-info .notice-close{
+        color: #4388d9;
+    }
+
+    .notice-info .notice-close:hover{
+        color: #71a4df;
+    }
+
+
+    /* css màu cho notice warning */
+    .notice-warning .notice-icon{
+        color: #f1c04e;
+    }
+
+    .notice-warning .notice-close{
+        color: #f1c04e;
+    }
+    
+    .notice-warning .notice-close:hover{
+        color: #ebd194;
+    }
+
+
+    /* css màu cho notice error */
+    .notice-error .notice-icon{
+        color: #eb5757;
+    }
+
+    .notice-error .notice-close{
+        color: #eb5757;
+    }
+
+    .notice-error .notice-close:hover{
+        color: #ffafaf;
+    }
